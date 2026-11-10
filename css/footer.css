@@ -35,14 +35,6 @@
   margin-top: 16px;
 }
 
-.footer-li-social {
-  height: 40px;
-  width: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .footer-icon {
   color: #f4f4fd;
 }
@@ -54,10 +46,15 @@
   justify-content: center;
   align-items: center;
   padding: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-li-social:hover,
-.footer-li-social:focus {
+.footer-a-social:hover,
+.footer-a-social:focus {
   background-color: #31d0aa;
 }
 
