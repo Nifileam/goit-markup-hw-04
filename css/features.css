@@ -1,0 +1,37 @@
+.features-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+}
+
+.features-ul {
+  display: flex;
+  gap: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.features-ul li {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-div {
+  padding: 24px 100px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
